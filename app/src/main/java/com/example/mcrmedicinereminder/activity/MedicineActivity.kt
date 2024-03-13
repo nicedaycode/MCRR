@@ -453,7 +453,7 @@ class MedicineActivity : AppCompatActivity(), MedicineTypesAdapter.OnItemClickLi
         val pendingIntent = PendingIntent.getBroadcast(applicationContext, id,intent,PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         val alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val time = getTime()
-        alarmManager.setExactAndAllowWhileIdle(
+        alarmManager.setAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP,time,pendingIntent
         )
     }
@@ -464,7 +464,7 @@ class MedicineActivity : AppCompatActivity(), MedicineTypesAdapter.OnItemClickLi
         val id = System.currentTimeMillis().toInt()
         val pendingIntent = PendingIntent.getBroadcast(applicationContext, id,intent,PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         val alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
-        alarmManager.setExactAndAllowWhileIdle(
+        alarmManager.setAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP,medicineTime.time,pendingIntent
         )
         Log.d("RAHUL",medicineTime.toString())
