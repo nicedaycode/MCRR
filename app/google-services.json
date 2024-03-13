@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1026574115265",
+    "project_id": "mcr-medicine-reminder",
+    "storage_bucket": "mcr-medicine-reminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026574115265:android:e546da3f87d0c54a930f40",
+        "android_client_info": {
+          "package_name": "com.example.mcrmedicinereminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026574115265-4etqh60bt984ahbanen5cs2nou66o8op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mcrmedicinereminder",
+            "certificate_hash": "27502c1daf0102850a827370543a399bd1934a6e"
+          }
+        },
+        {
+          "client_id": "1026574115265-4bgtf8qotafa4alnmi7fuee8eoj9smua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ54pPtqjyNcAilWooNa9hYoyQwfjqMDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026574115265-4bgtf8qotafa4alnmi7fuee8eoj9smua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
